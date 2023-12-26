@@ -1,0 +1,23 @@
+{
+  "name": "aaio.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "eslint": "^8.56.0",
+    "tslint": "^6.1.3",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [],
+  "author": "kewldan",
+  "files": [
+    "/dist"
+  ],
+  "license": "ISC"
+}
