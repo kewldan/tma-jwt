@@ -4,7 +4,7 @@ interface IpsResponse extends AaioResponse {
     list: `${number}.${number}.${number}.${number}`[]
 }
 
-export async function getIps(): Promise<{}> {
+export async function getIps(): Promise<IpsResponse> {
     const request = await fetch('https://aaio.io/api/public/ips');
     return await request.json();
 }
