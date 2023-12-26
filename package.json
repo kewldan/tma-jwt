@@ -5,8 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc -w"
+    "build": "tsc && vite build",
+    "dev": "vite"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
