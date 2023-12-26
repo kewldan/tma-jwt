@@ -1,6 +1,7 @@
 import {sendRequest} from "./utils";
 import {AaioResponse} from "./types";
-import {createHash} from "node:crypto";
+import Hex from 'crypto-js/enc-hex';
+import sha256 from 'crypto-js/sha256'
 
 interface PaymentInfoResponse extends AaioResponse {
     id: string;
@@ -75,7 +76,7 @@ export class Merchant {
     createPayment(amountValue: number, order_id: string, description?: string, email?: string, lang?: 'en' | 'ru', referral?: string, currency?: string): string {
         const paymentCurrency = currency || this.currency;
 
-        const sign = createHash('sha256').update([this.id, String(amountValue), paymentCurrency, this.secret, order_id].join(':')).digest('hex');
+        const sign = Hex.stringify(sha256([this.id, String(amountValue), paymentCurrency, this.secret, order_id].join(':')));
 
         const amount = String(amountValue);
 
