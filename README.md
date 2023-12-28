@@ -1,6 +1,6 @@
 [code-badge]: https://img.shields.io/badge/source-black?logo=github
 
-<h1><img src="https://aaio.io/assets/landing/img/logo-m.svg" width=30 height=30> AAIO</h1>
+<h1><img src="https://aaio.io/assets/landing/img/logo-m.svg" width=30 height=30 alt="AAIO Icon"> AAIO</h1>
 
 [![kewldan - AAIO](https://img.shields.io/static/v1?label=kewldan&message=aaio.js&color=blue&logo=github)](https://github.com/kewldan/AAIO "Go to GitHub repo")
 [![GitHub release](https://img.shields.io/github/release/kewldan/aaio.js?include_prereleases=&sort=semver&color=blue)](https://github.com/kewldan/AAIO/releases/)
@@ -12,8 +12,8 @@
 
 ### Ссылки
 
-npm - https://www.npmjs.com/package/aaio.js
-Github - https://github.com/kewldan/aaio.js
+* npm - https://www.npmjs.com/package/aaio.js
+* Github - https://github.com/kewldan/aaio.js
 
 ## Установка
 
