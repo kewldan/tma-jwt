@@ -12,12 +12,17 @@
 
 ### Ссылки
 
-* npm - https://www.npmjs.com/package/aaio.js
+* NPM - https://www.npmjs.com/package/aaio.js
 * Github - https://github.com/kewldan/aaio.js
+* AAIO - https://wiki.aaio.io/gotovye-cms-moduli-i-sdk/typescript-sdk
 
 ## Установка
 
-npm - `$ npm i aaio.js`
+Используя npm:
+
+```bash
+$ npm install aaio.js
+```
 
 ## Прием платежей
 
@@ -43,8 +48,8 @@ console.log(payoff_create_info.amount_down) // Сколько списано
 
 ## Контакты
 
-Почта - kewldanil1@gmail.com
-Телеграм [@kewldan](https://t.me/kewldan)
+* Почта - kewldanil1@gmail.com
+* Телеграм [@kewldan](https://t.me/kewldan)
 
 ## Лицензия
 
