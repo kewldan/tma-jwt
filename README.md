@@ -1,10 +1,6 @@
 [code-badge]: https://img.shields.io/badge/source-black?logo=github
 
-# aaio.js - В разработке
-
-<a href="https://aaio.io/" target="_blank">
-	<img alt="AAIO Badge" src="https://aaio.io/assets/svg/banners/big/dark-2.svg" title="Aaio - Сервис по приему онлайн платежей">
-</a>
+<h1><img src="https://aaio.io/assets/landing/img/logo-m.svg" width=30 height=30> AAIO</h1>
 
 [![kewldan - AAIO](https://img.shields.io/static/v1?label=kewldan&message=aaio.js&color=blue&logo=github)](https://github.com/kewldan/AAIO "Go to GitHub repo")
 [![GitHub release](https://img.shields.io/github/release/kewldan/aaio.js?include_prereleases=&sort=semver&color=blue)](https://github.com/kewldan/AAIO/releases/)
@@ -12,11 +8,12 @@
 
 [AAIO Официальная документация](https://wiki.aaio.io/)
 
-Библиотека для удобной работы с API AAIO https://aaio.io/ на TypeScript.
+Библиотека для удобной работы с API AAIO https://aaio.io/ на JavaScript с поддержкой TypeScript.
 
 ### Ссылки
+
 npm - https://www.npmjs.com/package/aaio.js
-github - https://github.com/kewldan/aaio.js
+Github - https://github.com/kewldan/aaio.js
 
 ## Установка
 
