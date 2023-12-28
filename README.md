@@ -2,8 +2,8 @@
 
 <h1><img src="https://aaio.io/assets/landing/img/logo-m.svg" width=30 height=30 alt="AAIO Icon"> AAIO</h1>
 
-[![kewldan - AAIO](https://img.shields.io/static/v1?label=kewldan&message=aaio.js&color=blue&logo=github)](https://github.com/kewldan/AAIO "Go to GitHub repo")
-[![GitHub release](https://img.shields.io/github/release/kewldan/aaio.js?include_prereleases=&sort=semver&color=blue)](https://github.com/kewldan/AAIO/releases/)
+[![kewldan - AAIO](https://img.shields.io/static/v1?label=kewldan&message=aaio.js&color=blue&logo=github)](https://github.com/kewldan/aaio.js "Go to GitHub repo")
+[![GitHub release](https://img.shields.io/github/release/kewldan/aaio.js?include_prereleases=&sort=semver&color=blue)](https://github.com/kewldan/aaio.js/releases/)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#Лицензия)
 
 [AAIO Официальная документация](https://wiki.aaio.io/)
