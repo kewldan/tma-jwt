@@ -2,11 +2,13 @@
 
 import React, {useEffect} from "react";
 import {useInitDataRaw} from "@tma.js/sdk-react";
+import {useRouter} from "next/navigation";
 
 export function TelegramAuth({children}: {
     children: React.ReactNode
 }) {
     const initDataRaw = useInitDataRaw();
+    const router = useRouter();
 
     useEffect(() => {
         if (!initDataRaw)
@@ -27,13 +29,13 @@ export function TelegramAuth({children}: {
                     console.error(`Failed to auth, ${data.message}`)
                 } else {
                     if (!data.again) {
-                        window.location.reload();
+                        router.refresh();
                     }
                 }
             });
         });
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+    }, [router]);
 
     return (
         <>

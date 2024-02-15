@@ -28,8 +28,13 @@ export class Authenticator {
         if (token) {
             try {
                 const userId = await this.verifyJWT(token.value);
+
                 if (userId) {
                     return Response.json({type: 'success', again: true});
+                }
+
+                if (header.userId != userId) {
+                    return Response.json({type: 'error', message: 'Failed to verify userId'})
                 }
             } catch (_) {
 
