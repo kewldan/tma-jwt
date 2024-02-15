@@ -9,7 +9,7 @@ import swcPreserveDirectives from 'rollup-swc-preserve-directives';
 const bundle = config => ({
     ...config,
     input: 'src/index.ts',
-    external: ['next/headers', 'jose', 'node:crypto', 'react', '@tma.js/sdk-react', '@tma.js/sdk'],
+    external: ['next/navigation', 'next/headers', 'jose', 'node:crypto', 'react', '@tma.js/sdk-react', '@tma.js/sdk'],
 })
 
 export default [
